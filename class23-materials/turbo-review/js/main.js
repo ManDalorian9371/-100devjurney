@@ -35,7 +35,11 @@ function playFun(toss) {
 //Create a function that takes an array of choices. 
 //Play the game x times where x is the number of choices in the array. 
 //Print the results of each game to the console.
-
+function arrPlay(arr) {
+    let m = Number(arr[0])
+    for (i=1 ; i<=m ; i++) {
+        console.log(gameFun())
+    }}
 playFun("paper")
 // function digitize(n) {
 //     let pp = n.toString().split('').reverse()
