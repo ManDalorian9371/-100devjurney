@@ -1,0 +1,51 @@
+*{
+    box-sizing:  BORDER-BOX;
+}
+header , footer{
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+
+.first {
+    border: 2px solid black;
+    height: 400px;
+    float: left;
+    width: 20%;
+}
+
+.second  {
+    border: 2px solid black;
+    height: 400px;
+    width: 40%;
+    float: left;
+}
+
+.third {
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+.fourth {
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    float: left;
+
+}
+
+/* .small {
+    border: 3px solid black;
+    height: 150PX;
+    width: 33.3333%;
+    float: left;
+} */
+
+/* .big {
+    border: 3px solid black;
+    height: 250px;
+    width: 50%;
+    float: left;
+} */
