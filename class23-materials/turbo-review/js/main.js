@@ -35,9 +35,7 @@ function playFun(toss) {
 //Create a function that takes an array of choices. 
 //Play the game x times where x is the number of choices in the array. 
 //Print the results of each game to the console.
-function multiPlay(xx){
 
-}
 playFun("paper")
 // function digitize(n) {
 //     let pp = n.toString().split('').reverse()
