@@ -12,6 +12,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	margin: 0;
+	background-color: rgb(167, 167, 167, 0.4);
 }
 /******************************************
 /* LAYOUT
@@ -20,8 +21,8 @@ img {
 	display: block;
 	margin: 0 auto;
 	border: none;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 500px;
+	max-height: 500px;
 	cursor: pointer;
 }
 h3 {
@@ -53,9 +54,34 @@ span:active {
 h2 {
 	align-self: center;
 	text-align: center;
+	color: rgb(145, 88, 3);
+	text-shadow: black;
 }
 p {
 	position: absolute;
 	color: white;
 	cursor: pointer;
+}
+video {
+	display: none;
+	margin: 0 auto;
+	border: none;
+	min-width: 200px;
+	min-height: 200px;
+	max-width: 600px;
+	max-height: 600px;
+	cursor: pointer;
+}
+button {
+	background-color: rgb(42, 70, 111);
+	color: aliceblue;
+	width: fit-content;
+	height: fit-content;
+	border-radius: 4rem;
+}
+button:hover {
+	background-color: rgb(27, 27, 88);
+}
+button:focus {
+	transform: scale(0.97);
 }

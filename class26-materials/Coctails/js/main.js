@@ -59,7 +59,7 @@ function getDrink(ndrink){
 			document.querySelector('.h3').innerText = instructions;
 			document.querySelector('img').src = photoUrl;
 			document.querySelector('img').style.animationFillMode = 'inherit';
-			document.querySelector('img').style.animation = '300ms opacity ease-in-out';
+			document.querySelector('img').style.transition = '300ms opacity ease-in';
 			document.querySelector('img').style.opacity = '1';
 		})
 		.catch((err) => {

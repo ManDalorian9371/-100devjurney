@@ -6,6 +6,7 @@
 html {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/drinks.png');
 	background-size: cover;
+	background-repeat: none;
 }
 body {
 	font-size: 20px;
@@ -23,6 +24,7 @@ img {
 	opacity: 0;
 	max-width: 230px;
 	max-height: 238px;
+
 	transition: 200ms ease-in-out;
 }
 h3,
