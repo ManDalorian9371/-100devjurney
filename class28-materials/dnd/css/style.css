@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	max-height: 500px;
+}
+h4,
+h3,
+h2 {
+	font-size: 30px;
+	margin: 0;
+	padding: 10px;
+}
+ul {
+	font-size: larger;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

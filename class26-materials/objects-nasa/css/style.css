@@ -13,9 +13,9 @@ body {
 	flex-direction: column;
 	margin: 15px auto;
 	font-family: 'lato', sans-serif;
-	background: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2050&q=80');
-	background-repeat: none;
-	background-size: cover;
+	background-image: url(../pics/nasalogo2.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 main {
 	padding: 0;
@@ -39,7 +39,8 @@ section input
 	align-self: center;
 	width: fit-content;
 	margin-bottom: 10px;
-	border: 2px solid rgb(14, 14, 45);
+	border: 3px solid rgba(0, 0, 0, 0.9);
+	border-radius: 15px;
 	background: rgb(2, 56, 114, 0.6);
 }
 .input input,
@@ -60,16 +61,16 @@ section input
 }
 .input button:hover {
 	border: 3px solid rgb(78, 159, 246);
-	box-shadow: -1px 1px 2px 5px rgba(62, 0, 248, 0.6);
+	box-shadow: -1px 1px 2px 5px rgba(145, 109, 252, 0.6);
 	color: rgb(0, 0, 0);
 	font-weight: 500;
 }
 .input button:focus {
-	box-shadow: -1px 1px 1px 2px rgba(62, 0, 248, 0.6);
+	box-shadow: -1px 1px 1px 2px rgba(145, 109, 252, 0.6);
 	transform: scale(0.98);
 }
 .input button:active {
-	box-shadow: -1px 2px 6px 9px rgba(62, 0, 248, 0.6);
+	box-shadow: -1px 2px 6px 9px rgba(145, 109, 252, 0.6);
 }
 .input input {
 	cursor: pointer;
@@ -85,6 +86,7 @@ span {
 span:hover,
 span:active {
 	font-weight: bold;
+	transform: scale(1.1);
 	text-shadow: rgb(3, 3, 3, 0.4);
 }
 /*
@@ -112,13 +114,13 @@ section.informations {
 	padding: 10px;
 	min-width: 20vw;
 	max-width: 30vw;
-	border: 3px solid rgb(17, 59, 104);
+	border: 3px solid rgb(145, 109, 252, 0.6);
 	background-color: rgb(212, 229, 247);
 	transition: box-shadow 0.5s ease, border 0.5s ease-out, opacity 2s ease-in;
 }
 .texts.active:hover {
 	border: 3px solid rgb(78, 159, 246);
-	box-shadow: -1px 1px 2px 5px rgba(62, 0, 248, 0.6);
+	box-shadow: -1px 1px 2px 5px rgba(145, 109, 252, 0.6);
 }
 h3 {
 	font-size: 15px;
@@ -201,12 +203,12 @@ img {
 img.active {
 	display: block;
 	cursor: pointer;
-	border: 3px solid rgb(2, 56, 114);
+	border: 3px solid rgb(145, 109, 252, 0.6);
 	transition: box-shadow 0.5s ease, border 0.5s ease-out, display 0.9s ease-in;
 }
 img:hover {
 	border: 2px solid rgb(13, 37, 61);
-	box-shadow: -1px 1px 2px 5px rgba(62, 0, 248, 0.6);
+	box-shadow: -1px 1px 2px 5px rgba(145, 109, 252, 0.6);
 }
 section#picture {
 	position: relative;
